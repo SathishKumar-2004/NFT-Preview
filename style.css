@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: "Outfit";
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image img{
+    width: 40vh;
+    border-radius: 10px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+   margin-bottom: 30px;
+    padding: 15px 20px;
+}
+.description, .days, .create{
+    color: hsl(215, 51%, 70%);
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    color:hsl(178, 100%, 50%) ;
+    
+}
+.author{
+    color: white;
+}
+.create img{
+    width: 4vh;
+    border-style: ridge;
+    border-color: white;
+    border-radius: 2vh;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.price img , .days img{
+    margin-right: 7px;
+   vertical-align: text-bottom;
+}
+@media screen and (max-width: 375px) {
+    .container{
+        width: 100%;
+        
+    }
+    body{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+}
